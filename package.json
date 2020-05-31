@@ -1,0 +1,32 @@
+{
+    "name": "dbdcustoms",
+    "version": "1.0.0",
+    "description": "A Project where I gather various Dead by Daylight community icons and character arts under one web app.",
+    "main": "app.js",
+    "scripts": {
+        "start": "node src/app.js",
+        "dev": "nodemon src/app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/roeintheglasses/dbdcustoms.git"
+    },
+    "keywords": [
+        "DbD"
+    ],
+    "author": "Hrishi Jangir",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/roeintheglasses/dbdcustoms/issues"
+    },
+    "homepage": "https://github.com/roeintheglasses/dbdcustoms#readme",
+    "dependencies": {
+        "bulma": "^0.8.2",
+        "ejs": "^3.1.3",
+        "express": "^4.17.1",
+        "express-ejs-layouts": "^2.5.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
